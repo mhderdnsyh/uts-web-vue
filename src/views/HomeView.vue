@@ -11,7 +11,7 @@
           <img src="../assets/img/profile-img.jpg" class="img-fluid mx-auto d-block" />
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content">
-          <h3 class="fw-bold">Keutamaan Membaca Al-Qur'an.</h3>
+          <h3 class="fw-bold text-dark">Keutamaan Membaca Al-Qur'an.</h3>
           <p>
             Al-Qur'an atau Qur'an, adalah sebuah kitab suci utama dalam agama Islam, yang umat Muslim percaya bahwa kitab ini diturunkan oleh Allah, kepada Nabi Muhammad. Kitab ini terbagi ke dalam beberapa surah dan setiap surahnya terbagi
             ke dalam beberapa ayat.
@@ -41,5 +41,9 @@
 p {
   color: #000;
   text-align: justify;
+  font-family: "Trebuchet MS";
+}
+h3 {
+  font-family: "Trebuchet MS";
 }
 </style>

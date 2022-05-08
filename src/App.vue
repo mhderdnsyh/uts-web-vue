@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-link">
-              <router-link to="/home">Home</router-link>
+              <router-link to="/">Home</router-link>
             </li>
             <li class="nav-link">
               <router-link to="/daftarsurah">Surah 3 Qul</router-link>
@@ -25,6 +25,10 @@
                 <li class="dropdown-item">
                   <router-link to="/disable">Al-Ikhlas</router-link>
                 </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li class="dropdown-item">
+                  <router-link to="/allsurah">All Surah</router-link>
+                </li>
               </ul>
             </li>
             <li class="nav-link">
@@ -34,11 +38,16 @@
               <router-link to="/feedback">Feedback</router-link>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="text" placeholder="Cari Surah" aria-label="Search" />
-            <button class="btn btn-outline-success" type="search">Search</button>
-            <p id="demo"></p>
-          </form>
+
+          <div class="d-flex">
+            <button type="button" class="btn btn-light shadow-sm position-relative">
+              Patch v5.0
+              <span class="position-absolute top-0 start-60 translate-middle badge rounded-pill bg-danger">
+                10+
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </nav>
